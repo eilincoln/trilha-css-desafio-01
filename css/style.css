@@ -201,3 +201,33 @@ h2 {
 .challenges-text h2 {
   line-height: 1.2;
 }
+
+/* RODAPÉ */
+
+footer {
+  border-top: 1px solid var(--azul);
+  background-color: #0a0a0a;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0px auto;
+  padding: 40px 24px;
+}
+
+.dio-logo {
+  width: 140px;
+}
+
+footer a {
+  color: var(--azul);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
