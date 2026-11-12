@@ -145,3 +145,31 @@ h2 {
   border-color: var(--azul);
   transform: translateY(-4px);
 }
+
+#transform-world {
+  background-attachment: scroll, fixed;
+    background-image:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 60%),
+    url("../assets/images/woman-code.jpg");
+    background-size: cover;
+    background-position: center;
+    border-top: 1px solid var(--azul);
+    border-bottom: 1px solid var(--azul);
+    padding: 120px 24px;
+}
+
+#transform-world p {
+  max-width: 1100px;
+  margin: 0px auto;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+#transform-world p span {
+  background: linear-gradient(90deg, #ffffff, var(--azul));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
