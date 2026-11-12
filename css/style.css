@@ -1,3 +1,7 @@
+:root {
+  --azul: #2d9cdb;
+}
+
 * {
   padding: 0px;
   margin: 0px;
@@ -12,4 +16,22 @@ body {
 
 h1, h2 {
   font-family: 'Space Grotesk', sans-serif;
+}
+
+/* BANNER */
+.banner {
+  background-image: url("../assets/images/banner.png");
+  background-position: center;
+  background-size: cover;
+  border-bottom: 1px solid var(--azul);
+}
+
+.banner-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+  max-width: 1100px;
+  margin: 0px auto;
+  padding: 80px 24px;
 }
