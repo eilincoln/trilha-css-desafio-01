@@ -231,3 +231,76 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+
+/* RESPONSIVO */
+
+@media (max-width: 768px){
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .banner-content {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 48px 24px;
+  }
+
+  .banner-text h1 {
+    font-size: 2rem;
+  }
+
+  .logo {
+    width: 200px;
+  }
+
+  #course-content {
+    padding: 64px 24px;
+  }
+
+  .modules-list {
+    flex-direction: column;
+  }
+
+   #transform-world {
+    background-attachment: scroll;
+    padding: 80px 24px;
+  }
+
+  #transform-world p {
+    font-size: 2rem;
+  }
+
+  #professional-challenges {
+    flex-direction: column;
+    gap: 32px;
+    padding: 64px 24px;
+  }
+
+  #professional-challenges img {
+    width: 100%;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+}
+
+/* MENOS MOVIMENTO (acessibilidade) */
+
+@media (prefers-reduced-motion: reduce){
+  #transform-world {
+    background-attachment: scroll;
+  }
+
+  .module,
+  .banner-text button {
+    transition: none;
+  }
+
+  .module:hover {
+    transform: none;
+  }
+}
